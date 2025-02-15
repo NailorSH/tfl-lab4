@@ -1,4 +1,6 @@
 package model
 
-class Token {
-}
+data class Token(
+    val type: TokenType,
+    val value: Any? = null
+)
